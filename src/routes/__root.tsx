@@ -26,26 +26,6 @@ function RootComponent() {
                 <Rocket className="h-6 w-6" />
                 <span>StreetRocket</span>
               </Link>
-              <div className="flex items-center gap-6">
-                <Link
-                  to="/"
-                  className="text-sm font-medium hover:text-primary transition-colors [&.active]:text-primary"
-                >
-                  Главная
-                </Link>
-                <Link
-                  to="/about"
-                  className="text-sm font-medium hover:text-primary transition-colors [&.active]:text-primary"
-                >
-                  О проекте
-                </Link>
-                <Link
-                  to="/docs"
-                  className="text-sm font-medium hover:text-primary transition-colors [&.active]:text-primary"
-                >
-                  Документация
-                </Link>
-              </div>
             </div>
           </div>
         </nav>

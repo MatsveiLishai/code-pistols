@@ -1,7 +1,5 @@
-import { createFileRoute, Link } from "@tanstack/react-router"
-import { ExampleComponent } from "@/components/ExampleComponent"
+import { createFileRoute } from "@tanstack/react-router"
 import { AIChat } from "@/components/AIChat"
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Code2 } from "lucide-react"
 
@@ -41,6 +39,7 @@ function HomePage() {
               { name: "shadcn/ui", color: "bg-slate-700" },
               { name: "TanStack Query", color: "bg-red-500" },
               { name: "TanStack Router", color: "bg-orange-500" },
+              { name: "OpenAI", color: "bg-green-500" },
             ].map((tech) => (
               <div
                 key={tech.name}
@@ -54,24 +53,7 @@ function HomePage() {
         </CardContent>
       </Card>
 
-      {/* Пример компонента с данными */}
-      <ExampleComponent />
-
-      {/* AI Chat */}
       <AIChat />
-
-      {/* Призыв к действию */}
-      <div className="flex items-center justify-center gap-4 py-8">
-        <Link to="/docs">
-          <Button size="lg">Начать разработку</Button>
-        </Link>
-        <Link to="/about">
-          <Button variant="outline" size="lg">
-            О проекте
-          </Button>
-        </Link>
-      </div>
     </div>
   )
 }
-
