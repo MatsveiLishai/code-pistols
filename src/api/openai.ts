@@ -1,8 +1,21 @@
 import OpenAI from 'openai';
 
+// Получаем API ключ из переменных окружения
+const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+
+// Проверяем наличие ключа и выводим понятную ошибку
+if (!apiKey) {
+  console.error('⚠️ VITE_OPENAI_API_KEY не установлен!');
+  console.error('Добавьте переменную окружения в Vercel:');
+  console.error('1. Зайдите в настройки проекта на Vercel');
+  console.error('2. Settings → Environment Variables');
+  console.error('3. Добавьте VITE_OPENAI_API_KEY со значением вашего ключа');
+  console.error('4. Пересоберите проект');
+}
+
 // Инициализация клиента OpenAI
 const openai = new OpenAI({
-  apiKey: import.meta.env.VITE_OPENAI_API_KEY,
+  apiKey: apiKey || 'dummy-key', // Используем dummy ключ, чтобы не падало при инициализации
   dangerouslyAllowBrowser: true, // Разрешаем использование в браузере
 });
 
@@ -24,6 +37,14 @@ export async function askAI(
   prompt: string,
   options: AskAIOptions = {}
 ): Promise<string> {
+  // Проверяем наличие API ключа перед запросом
+  const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+  if (!apiKey) {
+    throw new Error(
+      'API ключ OpenAI не настроен. Добавьте VITE_OPENAI_API_KEY в переменные окружения Vercel.'
+    );
+  }
+
   const {
     model = 'gpt-5-mini',
     reasoningEffort = 'medium',
