@@ -32,6 +32,9 @@ importers:
       lucide-react:
         specifier: ^0.544.0
         version: 0.544.0(react@19.2.0)
+      openai:
+        specifier: ^6.1.0
+        version: 6.1.0(zod@3.25.76)
       react:
         specifier: ^19.1.1
         version: 19.2.0
@@ -1402,6 +1405,18 @@ packages:
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
+
+  openai@6.1.0:
+    resolution: {integrity: sha512-5sqb1wK67HoVgGlsPwcH2bUbkg66nnoIYKoyV9zi5pZPqh7EWlmSrSDjAh4O5jaIg/0rIlcDKBtWvZBuacmGZg==}
+    hasBin: true
+    peerDependencies:
+      ws: ^8.18.0
+      zod: ^3.25 || ^4.0
+    peerDependenciesMeta:
+      ws:
+        optional: true
+      zod:
+        optional: true
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -3003,6 +3018,10 @@ snapshots:
   node-releases@2.0.23: {}
 
   normalize-path@3.0.0: {}
+
+  openai@6.1.0(zod@3.25.76):
+    optionalDependencies:
+      zod: 3.25.76
 
   optionator@0.9.4:
     dependencies:

@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router"
 import { ExampleComponent } from "@/components/ExampleComponent"
+import { AIChat } from "@/components/AIChat"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Code2 } from "lucide-react"
@@ -55,6 +56,9 @@ function HomePage() {
 
       {/* Пример компонента с данными */}
       <ExampleComponent />
+
+      {/* AI Chat */}
+      <AIChat />
 
       {/* Призыв к действию */}
       <div className="flex items-center justify-center gap-4 py-8">
