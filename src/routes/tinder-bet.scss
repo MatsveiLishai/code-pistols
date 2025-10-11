@@ -1,0 +1,511 @@
+// TinderBet main container
+.sb-TinderBet {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+
+  &__error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  &-mainContent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &Wrapper-content {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &-swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-swiperSlide {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Onboarding styles
+.sb-TinderBet-onboardingFlow {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.sb-TinderBet-onboardingStep {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.sb-TinderBet-onboardingContent {
+  max-width: 500px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.sb-TinderBet-onboardingIcon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.sb-TinderBet-onboardingTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.sb-TinderBet-onboardingDescription {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.sb-TinderBet-onboardingSubtext {
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.sb-TinderBet-onboardingActions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+// Bet amount prompt styles
+.sb-TinderBet-betAmountPrompt {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  padding: 2rem;
+}
+
+.sb-TinderBet-promptContent {
+  max-width: 500px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.sb-TinderBet-promptIcon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.sb-TinderBet-promptTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.sb-TinderBet-promptDescription {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.sb-TinderBet-promptActions {
+  margin-top: 2rem;
+}
+
+// Bet amount selector
+.sb-TinderBet-betAmountSelector {
+  width: 100%;
+}
+
+.sb-TinderBet-freeBetsInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: #f0f9ff;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.sb-TinderBet-freeBetsIcon {
+  font-size: 1.5rem;
+}
+
+.sb-TinderBet-freeBetsText {
+  color: #0284c7;
+  font-weight: 600;
+}
+
+.sb-TinderBet-amountSection {
+  width: 100%;
+}
+
+.sb-TinderBet-amountHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sb-TinderBet-amountLabel {
+  font-weight: 600;
+  color: #333;
+}
+
+.sb-TinderBet-balance {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.sb-TinderBet-predefinedAmounts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sb-TinderBet-amountButton {
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: #667eea;
+    background: #f3f4f6;
+  }
+
+  &--selected {
+    border-color: #667eea;
+    background: #667eea;
+    color: #fff;
+  }
+}
+
+.sb-TinderBet-customAmountWrapper {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sb-TinderBet-customAmountInput {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+
+  &:focus {
+    outline: none;
+    border-color: #667eea;
+  }
+}
+
+.sb-TinderBet-validationError {
+  color: #ef4444;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.sb-TinderBet-selectedAmount {
+  color: #10b981;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+// Button styles
+.sb-TinderBet-button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+
+  &--primary {
+    background: #667eea;
+    color: #fff;
+
+    &:hover:not(:disabled) {
+      background: #5568d3;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  &--secondary {
+    background: #fff;
+    color: #667eea;
+    border: 2px solid #667eea;
+
+    &:hover {
+      background: #f3f4f6;
+    }
+  }
+
+  &--small {
+    padding: 0.75rem 1.5rem;
+    width: auto;
+  }
+}
+
+// Leagues list
+.sb-TinderBet-leaguesList {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 2rem;
+}
+
+.sb-TinderBet-leagueItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: #667eea;
+    background: #f9fafb;
+  }
+}
+
+.sb-TinderBet-leagueCheckbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.sb-TinderBet-leagueInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sb-TinderBet-leagueName {
+  font-weight: 600;
+  color: #333;
+}
+
+.sb-TinderBet-leagueSport {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.sb-TinderBet-leagueLive {
+  font-size: 0.85rem;
+  color: #10b981;
+  font-weight: 600;
+}
+
+// Gambling levels
+.sb-TinderBet-gamblingLevels {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sb-TinderBet-gamblingLevel {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: #667eea;
+    background: #f9fafb;
+  }
+
+  &--selected {
+    border-color: #667eea;
+    background: #ede9fe;
+  }
+}
+
+.sb-TinderBet-gamblingLevelRadio {
+  display: none;
+}
+
+.sb-TinderBet-gamblingLevelContent {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.sb-TinderBet-gamblingLevelIcon {
+  font-size: 2.5rem;
+}
+
+.sb-TinderBet-gamblingLevelInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sb-TinderBet-gamblingLevelLabel {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.sb-TinderBet-gamblingLevelDescription {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.sb-TinderBet-gamblingLevelOdds {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+// Customization menu
+.sb-TinderBet-customizationMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.sb-TinderBet-customizationOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.sb-TinderBet-customizationContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.sb-TinderBet-customizationHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.sb-TinderBet-customizationTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.sb-TinderBet-customizationClose {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #666;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: #333;
+  }
+}
+
+.sb-TinderBet-customizationTabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.sb-TinderBet-customizationTab {
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  color: #666;
+  transition: all 0.2s;
+  margin-bottom: -2px;
+
+  &:hover {
+    color: #333;
+  }
+
+  &--active {
+    color: #667eea;
+    border-bottom-color: #667eea;
+  }
+}
+
+.sb-TinderBet-customizationBody {
+  margin-bottom: 1.5rem;
+}
+
+.sb-TinderBet-customizationActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+// Slide placeholder
+.sb-Slide-placeholder {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+}
+

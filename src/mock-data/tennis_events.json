@@ -1,0 +1,382 @@
+[
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Wimbledon",
+      "teams": {
+        "home": {
+          "name": "Djoko",
+          "id": 3001
+        },
+        "away": {
+          "name": "Federer",
+          "id": 3002
+        }
+      },
+      "start_time": "2025-10-11T14:00:00+01:00",
+      "score": "0 : 0",
+      "video": {
+        "url": "https://youtu.be/w9wUjBXBisw?si=-4sEnJgTLLzpayaL&t=4106",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3003,
+            "name": "Djokovic -1.5",
+            "odds": 2.4
+          },
+          {
+            "id": 3004,
+            "name": "Federer +1.5",
+            "odds": 1.55
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, French Open",
+      "teams": {
+        "home": {
+          "name": "Nadal",
+          "id": 3011
+        },
+        "away": {
+          "name": "Alcaraz",
+          "id": 3012
+        }
+      },
+      "start_time": "2025-10-12T15:30:00+01:00",
+      "score": "15 : 0",
+      "video": {
+        "url": "https://youtu.be/w9wUjBXBisw?si=D8n-nYBSYKKMwdCT&t=6286",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3013,
+            "name": "Nadal -3.5",
+            "odds": 1.95
+          },
+          {
+            "id": 3014,
+            "name": "Alcaraz +3.5",
+            "odds": 1.85
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "Wimbledon",
+      "teams": {
+        "home": {
+          "name": "Aryna Sabalenka",
+          "id": 3022
+        },
+        "away": {
+          "name": "Emma Raducanu",
+          "id": 3023
+        }
+      },
+      "start_time": "2025-10-13T17:00:00-04:00",
+      "score": "40 : 40",
+      "video": {
+        "url": "https://youtu.be/0Ptf-j8s6es?si=4-yNHog0khUit9Vw&t=3035",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3024,
+            "name": "Medved",
+            "odds": 1.8
+          },
+          {
+            "id": 3025,
+            "name": "Zverev",
+            "odds": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Australian Open",
+      "teams": {
+        "home": {
+          "name": "Tsitsi",
+          "id": 3032
+        },
+        "away": {
+          "name": "Rublev",
+          "id": 3033
+        }
+      },
+      "start_time": "2025-10-14T11:00:00+11:00",
+      "score": "2 : 1",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3034,
+            "name": "Odd",
+            "odds": 1.9
+          },
+          {
+            "id": 3035,
+            "name": "Even",
+            "odds": 1.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Rome Masters",
+      "teams": {
+        "home": {
+          "name": "Sinner",
+          "id": 3042
+        },
+        "away": {
+          "name": "Berret",
+          "id": 3043
+        }
+      },
+      "start_time": "2025-10-15T16:30:00+01:00",
+      "score": "2 : 0",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3044,
+            "name": "Sinner -1.5",
+            "odds": 2.2
+          },
+          {
+            "id": 3045,
+            "name": "Berrettini +1.5",
+            "odds": 1.67
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Madrid Masters",
+      "teams": {
+        "home": {
+          "name": "Ruud",
+          "id": 3053
+        },
+        "away": {
+          "name": "Fritz",
+          "id": 3054
+        }
+      },
+      "start_time": "2025-10-16T19:00:00+01:00",
+      "score": "2 : 0",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3055,
+            "name": "Over 5.5",
+            "odds": 1.75
+          },
+          {
+            "id": 3056,
+            "name": "Under 5.5",
+            "odds": 2.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Indian Wells",
+      "teams": {
+        "home": {
+          "name": "Hurkacz",
+          "id": 3063
+        },
+        "away": {
+          "name": "Norrie",
+          "id": 3064
+        }
+      },
+      "start_time": "2025-10-17T14:30:00-07:00",
+      "score": "6-4, 7-5",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3065,
+            "name": "Hurkacz",
+            "odds": 1.9
+          },
+          {
+            "id": 3066,
+            "name": "Norrie",
+            "odds": 1.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Shanghai Masters",
+      "teams": {
+        "home": {
+          "name": "Auger",
+          "id": 3073
+        },
+        "away": {
+          "name": "Shapov",
+          "id": 3074
+        }
+      },
+      "start_time": "2025-10-18T13:00:00+08:00",
+      "score": "6-1, 6-2",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3075,
+            "name": "Auger-Aliassime -3.5",
+            "odds": 2.05
+          },
+          {
+            "id": 3076,
+            "name": "Shapovalov +3.5",
+            "odds": 1.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Cincinnati Masters",
+      "teams": {
+        "home": {
+          "name": "Kyrgios",
+          "id": 3084
+        },
+        "away": {
+          "name": "Dimitr",
+          "id": 3085
+        }
+      },
+      "start_time": "2025-10-19T15:45:00-04:00",
+      "score": "6-3, 4-6, 6-4",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3086,
+            "name": "Kyrgios -1.5",
+            "odds": 1.75
+          },
+          {
+            "id": 3087,
+            "name": "Dimitrov +1.5",
+            "odds": 2.05
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "tennis",
+      "league": "ATP, Paris Masters",
+      "teams": {
+        "home": {
+          "name": "Monfils",
+          "id": 3094
+        },
+        "away": {
+          "name": "Gasquet",
+          "id": 3095
+        }
+      },
+      "start_time": "2025-10-20T16:15:00+01:00",
+      "score": "6-2, 6-3",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 3096,
+            "name": "Over 21.5",
+            "odds": 1.85
+          },
+          {
+            "id": 3097,
+            "name": "Under 21.5",
+            "odds": 1.95
+          }
+        ]
+      }
+    ]
+  }
+]

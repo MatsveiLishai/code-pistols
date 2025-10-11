@@ -1,0 +1,122 @@
+[
+  {
+    "event": {
+      "type": "basketball",
+      "league": "USA, NBA",
+      "teams": {
+        "home": {
+          "name": "Lakers",
+          "id": 2001,
+          "logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/lal.png&w=80&h=80&scale=crop&cquality=40"
+        },
+        "away": {
+          "name": "Warrior",
+          "id": 2002,
+          "logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/gs.png&w=80&h=80&scale=crop&cquality=40"
+        }
+      },
+      "start_time": "2025-10-11T19:30:00-08:00",
+      "score": "1 : 0",
+      "video": {
+        "url": "https://youtu.be/Svz2Hmr9RJ0?t=1156",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 2003,
+            "name": "Lakers",
+            "odds": 1.85
+          },
+          {
+            "id": 2004,
+            "name": "Warrior",
+            "odds": 1.95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "basketball",
+      "league": "USA, NBA",
+      "teams": {
+        "home": {
+          "name": "Celtics",
+          "id": 2011,
+          "logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/bos.png&w=80&h=80&scale=crop&cquality=40"
+        },
+        "away": {
+          "name": "Heat",
+          "id": 2012,
+          "logo": "https://a1.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/mia.png&w=80&h=80&scale=crop&cquality=40"
+        }
+      },
+      "start_time": "2025-10-12T20:00:00-05:00",
+      "score": "8 : 9",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=c8Y1jMQ2J94",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 2013,
+            "name": "Celtics",
+            "odds": 1.65
+          },
+          {
+            "id": 2014,
+            "name": "Heat",
+            "odds": 2.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "basketball",
+      "league": "Europe, EuroLeague",
+      "teams": {
+        "home": {
+          "name": "Madrid",
+          "id": 2021,
+          "logo": "https://via.placeholder.com/100x100/FF6B6B/FFFFFF?text=RM"
+        },
+        "away": {
+          "name": "Barca",
+          "id": 2022,
+          "logo": "https://via.placeholder.com/100x100/004D98/FFFFFF?text=FCB"
+        }
+      },
+      "start_time": "2025-10-13T21:00:00+01:00",
+      "score": "9 : 2",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 2023,
+            "name": "Over",
+            "odds": 1.9
+          },
+          {
+            "id": 2024,
+            "name": "Under",
+            "odds": 1.9
+          }
+        ]
+      }
+    ]
+  }
+]

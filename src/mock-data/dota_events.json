@@ -1,0 +1,382 @@
+[
+  {
+    "event": {
+      "type": "dota",
+      "league": "The International 2025",
+      "teams": {
+        "home": {
+          "name": "Falcons",
+          "id": 4001
+        },
+        "away": {
+          "name": "Fnatic",
+          "id": 4002
+        }
+      },
+      "start_time": "2025-10-11T12:00:00+00:00",
+      "score": "2 : 1",
+      "video": {
+        "url": "https://youtu.be/fmCO5YoQanw?si=AicUl_3lZcS-RWsx&t=1033",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4003,
+            "name": "Falcons -1.5",
+            "odds": 2.4
+          },
+          {
+            "id": 4004,
+            "name": "Fnatic +1.5",
+            "odds": 1.55
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "The International 2025",
+      "teams": {
+        "home": {
+          "name": "Falcons",
+          "id": 4011
+        },
+        "away": {
+          "name": "Xtreme",
+          "id": 4012
+        }
+      },
+      "start_time": "2025-10-12T14:30:00+01:00",
+      "score": "7 : 4",
+      "video": {
+        "url": "https://youtu.be/ahknoefViss?si=5f_p4tCAYNURQWL2&t=1102",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4013,
+            "name": "Over 10.5",
+            "odds": 1.85
+          },
+          {
+            "id": 4014,
+            "name": "Under 10.5",
+            "odds": 1.95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "RLCS S6 World Championship",
+      "teams": {
+        "home": {
+          "name": "Evil",
+          "id": 4021
+        },
+        "away": {
+          "name": "PSG.LGD",
+          "id": 4022
+        }
+      },
+      "start_time": "2025-10-13T18:00:00-04:00",
+      "score": "7 : 5",
+      "video": {
+        "url": "https://youtu.be/W7YupvvFo7I?si=NTYnbYofv8yYOIaF&t=2430",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4023,
+            "name": "Evil +1.5",
+            "odds": 1.7
+          },
+          {
+            "id": 4024,
+            "name": "PSG.LGD -1.5",
+            "odds": 2.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "Starladder Season 13",
+      "teams": {
+        "home": {
+          "name": "Virtus",
+          "id": 4031
+        },
+        "away": {
+          "name": "Alliance",
+          "id": 4032
+        }
+      },
+      "start_time": "2025-10-14T16:30:00+03:00",
+      "score": "4 : 4",
+      "video": {
+        "url": "https://youtu.be/zIg_byiJ_Pc?si=nVKnMFiofvJVe7O5&t=1310",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4033,
+            "name": "Virtus",
+            "odds": 1.45
+          },
+          {
+            "id": 4034,
+            "name": "Alliance",
+            "odds": 2.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "DreamLeague",
+      "teams": {
+        "home": {
+          "name": "Nigma",
+          "id": 4041
+        },
+        "away": {
+          "name": "Quincy",
+          "id": 4042
+        }
+      },
+      "start_time": "2025-10-15T20:15:00+01:00",
+      "score": "2 : 1",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4043,
+            "name": "Over 13.5",
+            "odds": 1.87
+          },
+          {
+            "id": 4044,
+            "name": "Under 13.5",
+            "odds": 1.93
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "The International 2022",
+      "teams": {
+        "home": {
+          "name": "NAVI",
+          "id": 4051
+        },
+        "away": {
+          "name": "T1",
+          "id": 4052
+        }
+      },
+      "start_time": "2025-10-16T13:45:00+08:00",
+      "score": "18 : 10",
+      "video": {
+        "url": "https://youtu.be/xc8kN2TFBTo?si=SW57QidAeXaRqNKD&t=2541",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4053,
+            "name": "Over 16.5",
+            "odds": 1.9
+          },
+          {
+            "id": 4054,
+            "name": "Under 16.5",
+            "odds": 1.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "EPICENTER",
+      "teams": {
+        "home": {
+          "name": "Spirit",
+          "id": 4061
+        },
+        "away": {
+          "name": "Tundra",
+          "id": 4062
+        }
+      },
+      "start_time": "2025-10-17T17:00:00+03:00",
+      "score": "2 : 0",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4063,
+            "name": "Over 9.5",
+            "odds": 1.88
+          },
+          {
+            "id": 4064,
+            "name": "Under 9.5",
+            "odds": 1.92
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "Dota Pro Circuit",
+      "teams": {
+        "home": {
+          "name": "BetBoom",
+          "id": 4071
+        },
+        "away": {
+          "name": "Gaimin",
+          "id": 4072
+        }
+      },
+      "start_time": "2025-10-18T19:30:00+01:00",
+      "score": "0 : 2",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4073,
+            "name": "BetBoom",
+            "odds": 1.8
+          },
+          {
+            "id": 4074,
+            "name": "Gaimin",
+            "odds": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "ESL One",
+      "teams": {
+        "home": {
+          "name": "Azure",
+          "id": 4081
+        },
+        "away": {
+          "name": "9Pandas",
+          "id": 4082
+        }
+      },
+      "start_time": "2025-10-19T15:45:00+02:00",
+      "score": "2 : 1",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4083,
+            "name": "Over 2.5",
+            "odds": 1.92
+          },
+          {
+            "id": 4084,
+            "name": "Under 2.5",
+            "odds": 1.88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "dota",
+      "league": "BetBoom Dacha",
+      "teams": {
+        "home": {
+          "name": "Cloud9",
+          "id": 4091
+        },
+        "away": {
+          "name": "Shopify",
+          "id": 4092
+        }
+      },
+      "start_time": "2025-10-20T21:00:00+03:00",
+      "score": "1 : 2",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 4093,
+            "name": "Over 12.5",
+            "odds": 1.9
+          },
+          {
+            "id": 4094,
+            "name": "Under 12.5",
+            "odds": 1.9
+          }
+        ]
+      }
+    ]
+  }
+]

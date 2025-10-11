@@ -1,0 +1,40 @@
+[
+  {
+    "event": {
+      "type": "football",
+      "league": "Premier League",
+      "teams": {
+        "home": {
+          "name": "Man Utd",
+          "id": 5001
+        },
+        "away": {
+          "name": "Liverpl",
+          "id": 5002
+        }
+      },
+      "start_time": "2025-10-26T16:30:00+01:00",
+      "score": "2 : 1",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=jY174_tys9o",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 5003,
+            "name": "Man Utd",
+            "odds": 2.2
+          },
+          {
+            "id": 5004,
+            "name": "Liverpl",
+            "odds": 1.65
+          }
+        ]
+      }
+    ]
+  }
+]

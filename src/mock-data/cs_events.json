@@ -1,0 +1,154 @@
+[
+  {
+    "event": {
+      "type": "cs",
+      "league": "ESL Pro League",
+      "teams": {
+        "home": {
+          "name": "NAVI",
+          "id": 5001
+        },
+        "away": {
+          "name": "Astrali",
+          "id": 5002
+        }
+      },
+      "start_time": "2025-10-11T15:00:00+01:00",
+      "score": "2 : 4",
+      "video": {
+        "url": "https://youtu.be/OpgIrY4XaD8?t=306",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 5003,
+            "name": "NAVI -3.5",
+            "odds": 1.95
+          },
+          {
+            "id": 5004,
+            "name": "Astrali +3.5",
+            "odds": 1.85
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "cs",
+      "league": "IEM Cologne 2025",
+      "teams": {
+        "home": {
+          "name": "Spirit",
+          "id": 5021
+        },
+        "away": {
+          "name": "Heroic",
+          "id": 5022
+        }
+      },
+      "start_time": "2025-10-13T14:00:00+01:00",
+      "score": "6 : 8",
+      "video": {
+        "url": "https://youtu.be/__BRtIHSC7Q?si=p7ymGqlZ0V_AoiR_&t=1152",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 5023,
+            "name": "Spirit -2.5",
+            "odds": 1.9
+          },
+          {
+            "id": 5024,
+            "name": "Heroic +2.5",
+            "odds": 1.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "cs",
+      "league": "ESL Pro League Season 22",
+      "teams": {
+        "home": {
+          "name": "Spirit",
+          "id": 5031
+        },
+        "away": {
+          "name": "FaZe",
+          "id": 5032
+        }
+      },
+      "start_time": "2025-10-14T16:45:00+01:00",
+      "score": "9 : 6",
+      "video": {
+        "url": "https://youtu.be/acTi2DdgF6Q?si=LXAU03qgCyyjIKGL&t=1840",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 5033,
+            "name": "Spirit -10.5",
+            "odds": 1.95
+          },
+          {
+            "id": 5034,
+            "name": "FaZe +10.5",
+            "odds": 1.85
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event": {
+      "type": "cs",
+      "league": "FACEIT Major",
+      "teams": {
+        "home": {
+          "name": "Cloud9",
+          "id": 5041
+        },
+        "away": {
+          "name": "BIG",
+          "id": 5042
+        }
+      },
+      "start_time": "2025-10-15T19:15:00+01:00",
+      "score": "1 : 0",
+      "video": {
+        "url": "https://youtu.be/CoLe-zpHmoc?t=2028",
+        "type": "youtube"
+      }
+    },
+    "markets": [
+      {
+        "selections": [
+          {
+            "id": 5043,
+            "name": "Cloud9 +1.5",
+            "odds": 1.8
+          },
+          {
+            "id": 5044,
+            "name": "BIG -1.5",
+            "odds": 2
+          }
+        ]
+      }
+    ]
+  }
+]
